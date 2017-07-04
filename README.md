@@ -3,13 +3,13 @@
 There are autotests for searching in google.
 
 Instruction for launching in docker:
-1. Isntal docker and docker compose
+1. Install docker and docker compose
 2. Open work directory in terminal
 3. Launch the next commands
-   - docker-copose up -d
+   - docker-compose up -d
    - docker-compose run --rm codecept run acceptance --html result.html
    
-For lauching in real chrome browser you should:
+For launching in real chrome browser you should:
 1. Edit path to chromedriver and selenium server in selenium.sh script
 2. Run selenium.sh script
     - ./selenium.sh
