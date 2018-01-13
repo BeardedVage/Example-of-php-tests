@@ -1,4 +1,4 @@
-# Ortnec
+# Example of tests (Codeception with WebDriver)
 
 There are autotests for searching in google.
 
